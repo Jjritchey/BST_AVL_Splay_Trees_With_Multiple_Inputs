@@ -1,0 +1,7 @@
+Trees have been completed here is the summary: 
+
+      BST  AVL  Splay
+Search: 6   3   34   
+Insert: 211   211   676   
+Delete: 43   40   62   
+Total:  260   254   772   

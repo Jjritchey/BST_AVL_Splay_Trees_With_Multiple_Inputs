@@ -1,0 +1,7 @@
+Trees have been completed here is the summary: 
+
+      BST  AVL  Splay
+Search: 7   1   0   
+Insert: 7   9   13   
+Delete: 7   0   8   
+Total:  7   9   21   

@@ -1,0 +1,207 @@
+Trees have been completed here is the summary: 
+
+      BST  AVL  Splay
+Search: 7   1   4   
+Insert: 7   12   41   
+Delete: 7   0   3   
+Total:  7   12   48   
+
+
+-------------------------
+
+Insert: 8
+
+
+**Rotate Left-Right**
+8 
+4 10 
+
+Tree Height: 2
+
+-------------------------
+
+Insert: 12
+
+8 
+4 10 
+12 
+
+Tree Height: 3
+
+-------------------------
+
+Insert: 5
+
+8 
+4 10 
+5 12 
+
+Tree Height: 3
+
+-------------------------
+
+Insert: 15
+
+
+**Rotate Right-Right**
+8 
+4 12 
+5 10 15 
+
+Tree Height: 3
+
+-------------------------
+
+Insert: 13
+
+8 
+4 12 
+5 10 15 
+13 
+
+Tree Height: 4
+
+-------------------------
+
+First file is complete. Opening second file now: 
+
+-------------------------
+
+Search: 5 - found at level 3
+
+8 
+4 12 
+5 10 15 
+13 
+
+Tree Height: 4
+
+-------------------------
+
+Delete: 5
+
+8 
+4 12 
+10 15 
+13 
+
+Tree Height: 4
+
+-------------------------
+
+Insert: 11
+
+**Rotate Right-Right**
+
+12 
+8 15 
+4 10 13 
+11 
+
+Tree Height: 4
+
+-------------------------
+
+Insert: 2
+
+12 
+8 15 
+4 10 13 
+2 11 
+
+Tree Height: 4
+
+-------------------------
+
+Insert: 9
+
+12 
+8 15 
+4 10 13 
+2 9 11 
+
+Tree Height: 4
+
+-------------------------
+
+Insert: 18
+
+12 
+8 15 
+4 10 13 18 
+2 9 11 
+
+Tree Height: 4
+
+-------------------------
+
+Insert: 3
+
+**Rotate Left-Right**
+
+12 
+8 15 
+3 10 13 18 
+2 4 9 11 
+
+Tree Height: 4
+
+-------------------------
+
+Insert: 1
+
+**Rotate Left-Left**
+
+8 
+3 12 
+2 4 10 15 
+1 9 11 13 18 
+
+Tree Height: 4
+
+-------------------------
+
+Insert: 7
+
+8 
+3 12 
+2 4 10 15 
+1 7 9 11 13 18 
+
+Tree Height: 4
+
+-------------------------
+
+Search: 11 - found at level 4
+
+8 
+3 12 
+2 4 10 15 
+1 7 9 11 13 18 
+
+Tree Height: 4
+
+-------------------------
+
+Delete: 18
+
+8 
+3 12 
+2 4 10 15 
+1 7 9 11 13 
+
+Tree Height: 4
+
+-------------------------
+
+Delete: 23
+
+8 
+3 12 
+2 4 10 15 
+1 7 9 11 13 
+
+Tree Height: 4
+
+-------------------------
+
